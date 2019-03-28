@@ -24,4 +24,4 @@ To solve the problem for me I need to:
   
   9- Performing crossvalidation and Gridsearch I tried to improve GradientBoosting classifier as much as possible with respect to my time to solve this problem.
   
-  10- In second try, I have tried to reduce the range of frequency filtering to 80 to 260 HZ, to see if it can reduce the noise in signal and improve the predictions of classification. ( Source_Voices1.csv created, and then followed in *_02 notbooks)
+  10- In second try, I have tried to reduce the range of frequency by filtering between 80 and 260 HZ, to see if it can reduce the noise in signal and improve the predictions of classification. ( Voice_Sources1.csv created, and then followed in *_02 notbooks)
