@@ -20,7 +20,7 @@ To solve the problem for me I need to:
   
   7- As I see dataset is imbalanced, where in real world problem it should be balanced, so I need to deal with that also in training my ML models
   
-  8- Choosing the right metric is important here due to the nature of problem to be able to judge about the goodness of models, in first glance I got high accuracy but when you investigte the male/female distribution, it is clear that the model is overfitting on males, then I tried to do oversampling, so in training the model I have equal portions of male/female, and the checking f1-scores of test sets to see if I have good precision and recall, in this case since the test data is again imbalanced, it is important to not just look at accurcy but also at both precision and recall metrics (or f1 as an indicator of these two)
+  8- Choosing the right metric is important here due to the nature of problem to be able to judge about the goodness of models, in first glance I got high accuracy but when you investigte the male/female distribution, it is clear that the model is overfitting on males, then I tried to do oversampling, so in training the model I have equal portions of male/female, and then by checking f1-scores of test sets to see if I have good precision and recall, in this case since the test data is again imbalanced, it is important to not just look at accurcy but also at both precision and recall metrics (or f1 as an indicator of these two)
   
   9- Performing crossvalidation and Gridsearch I tried to improve GradientBoosting classifier as much as possible with respect to my time to solve this problem.
   
